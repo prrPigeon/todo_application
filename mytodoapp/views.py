@@ -18,7 +18,7 @@ def addTodo(request):
 	form = TodoForm(request.POST)
 
 	if form.is_valid():
-		new_one = Todo(text=request.POST['text'])
+		new_one = Todo(text=request.cleaned_data['text'])
 		new_one.save()
 
 
