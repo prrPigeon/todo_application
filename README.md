@@ -1,2 +1,3 @@
 #TodoApp
-This is simple todo list app, writen in Python/Django
+This is small todo list application
+, writen in Python/Django
